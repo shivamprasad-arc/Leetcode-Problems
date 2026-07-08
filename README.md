@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0344-reverse-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0345-reverse-vowels-of-a-string) |
 ## String
@@ -61,5 +62,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 <!---LeetCode Topics End-->
