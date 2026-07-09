@@ -64,4 +64,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0069-sqrtx) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
