@@ -1,11 +1,19 @@
 class Solution {
-    // Brute Force approach
+    // Optimized approach
     // Time complexity: O(N)
-    // Space Complexity: O(N)
+    // Space Complexity: O(1)
     public int lengthOfLastWord(String s) {
-        // all words are putted to the string array on the basis of space between the words
-        String[] str = s.split(" ");
-        // return the length of last word
-        return str[str.length - 1].length();
+        int l = s.length() - 1;
+        int count = 0;
+        // Traverse the string from end and ignore the unnecessary space of the end of string
+        while(l > 0 && s.charAt(l) == ' '){
+            l--;
+        }
+        // Track the count of last word
+        while(l >= 0 && s.charAt(l) != ' '){
+            count++;
+            l--;
+        }
+        return count;
     }
 }
