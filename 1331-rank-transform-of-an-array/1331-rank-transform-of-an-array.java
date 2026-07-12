@@ -14,12 +14,12 @@ class Solution {
             }
         }
         // ans stores the rank of each element
-        int ans[] = new int[arr.length];
+        sorted = new int[arr.length];
 
-        for(int i = 0; i < ans.length; i++){
-            ans[i] = map.get(arr[i]);  // give the rank on the basis of element
+        for(int i = 0; i < sorted.length; i++){
+            sorted[i] = map.get(arr[i]);  // give the rank on the basis of element
         }
         // return rank transformed array
-        return ans;
+        return sorted;
     }
 }
