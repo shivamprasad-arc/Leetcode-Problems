@@ -1,6 +1,6 @@
 class Solution {
     // Brute Force Approach
-    // Time complexity: O(N)
+    // Time complexity: O(N log N)
     // Space complexity: O(1)
     public int[] sortedSquares(int[] nums) {
         // square the all elements of array and initialize with root value
