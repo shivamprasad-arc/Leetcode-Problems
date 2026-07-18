@@ -1,4 +1,6 @@
 class Solution {
+    // Time complexity = O(N logN)
+    // Space Complexity = O(N)
     public int findGCD(int[] nums) {
         // sort the array to find the smallest and largest number
         Arrays.sort(nums);
