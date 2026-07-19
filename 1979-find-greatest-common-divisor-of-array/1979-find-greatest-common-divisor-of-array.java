@@ -6,12 +6,8 @@ class Solution {
         int largest = Integer.MIN_VALUE;
         // find the smallest and largest element of the array
         for(int i = 0; i < nums.length; i++){
-            if(smallest >= nums[i]){
-                smallest = nums[i];
-            }
-            if(largest <= nums[i]){
-                largest = nums[i];
-            }
+            smallest = Math.min(nums[i], smallest);
+            largest = Math.max(nums[i], largest);
         }
 
         // Find the GCD of smallest and largest element of the array
