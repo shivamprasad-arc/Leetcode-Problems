@@ -1,0 +1,14 @@
+class Solution {
+    // Time complexity: O(N)
+    // Space complexity: O(N)
+    public boolean checkIfPangram(String sentence) {
+        // add the all unique characters of sentence to the set
+        HashSet<Character> set = new HashSet<>();
+        for(int i = 0; i < sentence.length(); i++){
+            set.add(sentence.charAt(i));
+        }
+        // if the size of set is greater or equal to 26 then the sentence is panagram i.e., 
+        // the sentence contains all letters of the english alphabets
+        return set.size() >= 26 ? true : false;
+    }
+}
