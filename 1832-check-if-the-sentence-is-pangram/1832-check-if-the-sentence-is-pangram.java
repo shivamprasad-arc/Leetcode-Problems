@@ -1,6 +1,6 @@
 class Solution {
     // Time complexity: O(N)
-    // Space complexity: O(N)
+    // Space complexity: O(26) ~ O(1)
     public boolean checkIfPangram(String sentence) {
         // add the all unique characters of sentence to the set
         HashSet<Character> set = new HashSet<>();
