@@ -16,9 +16,6 @@ class Solution {
         }
         // if the size of both map and set is equal then each element of array has unique occurences
         // else if the size of both map and set is different then the each element of array hasn't unique occurence
-        if(map.size() == set.size()){
-            return true;
-        }
-        return false;
+        return map.size() == set.size() ? true : false;
     }
 }
