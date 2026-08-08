@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-two-out-of-three](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2032-two-out-of-three) |
 | [3731-find-missing-elements](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3731-find-missing-elements) |
 | [3866-first-unique-even-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3866-first-unique-even-element) |
+| [3945-digit-frequency-score](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3945-digit-frequency-score) |
 ## Counting
 |  |
 | ------- |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3945-digit-frequency-score](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3945-digit-frequency-score) |
 ## Binary Search
 |  |
 | ------- |
