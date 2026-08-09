@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1832-check-if-the-sentence-is-pangram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3517-smallest-palindromic-rearrangement-i) |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Hash Table
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1748-sum-of-unique-elements](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1748-sum-of-unique-elements) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [2032-two-out-of-three](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2032-two-out-of-three) |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 | [3731-find-missing-elements](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3731-find-missing-elements) |
 | [3866-first-unique-even-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3866-first-unique-even-element) |
 | [3945-digit-frequency-score](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3945-digit-frequency-score) |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1748-sum-of-unique-elements](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1748-sum-of-unique-elements) |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 | [3866-first-unique-even-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3866-first-unique-even-element) |
 ## Bit Manipulation
 |  |
