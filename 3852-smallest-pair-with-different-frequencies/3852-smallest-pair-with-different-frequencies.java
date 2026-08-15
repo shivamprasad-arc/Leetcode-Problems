@@ -1,26 +1,36 @@
 class Solution {
+    // time complexity O(N)
+    // space complexity O(N)
     public int[] minDistinctFreqPair(int[] nums) {
-        // Treemap stores the all elements of  the array with their frequency in sorted sequence
-        TreeMap<Integer, Integer> map = new TreeMap<>();
-        int min = Integer.MAX_VALUE;
-        for(int i = 0; i < nums.length; i++){
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-            if(min > nums[i]){
-                min = nums[i];
+        // HashMap stores the frequency of all elements with their frequencies of array
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int min = Integer.MAX_VALUE; // min tracks the smallest element of the array
+        // traverse the array and put their frequencies to the map and find smallest element
+        for(int num: nums){
+            map.put(num, map.getOrDefault(num, 0) + 1);
+            if(num < min){
+                min = num;
             }
         }
-
-        // freq stores the freqency of first element
-        int Firstfreq = map.get(min);
-        // traverse the hashmap and find different frequency from the first element's frequency
+        // firstFreq stores the frequency of the smallest element
+        int firstFreq = map.get(min);
+        int nextMin = Integer.MAX_VALUE;  // next min tracks the next smallest element
+        // traverse the map and find next smallest element with different frequency
         for(int x: map.keySet()){
-            // if the freqency of first element is different from the frequency of current element 
-            if(Firstfreq != map.get(x)){
-                //  then return the first elemetn and current elemnt
-                return new int[]{min, x};
+
+            // if the frequency of smallest element is not equal to the frequency of current element 
+            // then find next smallest element
+            if(firstFreq != map.get(x)){
+                if(nextMin > x){
+                    nextMin = x;
+                }
             }
         }
-        // if different frequency is not found then return -1, -1
-        return new int[]{-1, -1};
+        // if next smallest element with different frequency is not found then return {-1, -1}
+        if(nextMin == Integer.MAX_VALUE){
+            return new int[]{-1, -1};
+        }
+        // if nextMin with different frequency is found then return min and nextMin
+        return new int[]{min, nextMin};
     }
 }
