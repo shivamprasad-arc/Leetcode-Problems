@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
+| [0066-plus-one](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0283-move-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
