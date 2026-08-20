@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0404-sum-of-left-leaves](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0513-find-bottom-left-tree-value) |
+| [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0404-sum-of-left-leaves](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0513-find-bottom-left-tree-value) |
+| [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Array
 |  |
@@ -211,9 +213,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
