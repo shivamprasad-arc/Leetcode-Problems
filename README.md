@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
 ## Tree
 |  |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
 | [0066-plus-one](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0283-move-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0977-squares-of-a-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0977-squares-of-a-sorted-array) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 ## Linked List
 |  |
 | ------- |
@@ -220,4 +223,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
