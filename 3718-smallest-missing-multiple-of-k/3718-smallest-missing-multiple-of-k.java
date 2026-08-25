@@ -1,26 +1,24 @@
 class Solution {
-    // time complexity: O(N logN)
-    // Space complexity: O(1)
+    // Time complexity: O(N)
+    // Space complexity: O(N)
     public int missingMultiple(int[] nums, int k) {
-        int i = 0;  // counter to track how many multiple of k we've seen
-        // sort the array to arrange the first multiple of k is in first
-        Arrays.sort(nums);
-        int prev = -1;  // track last seen multiple
-
-        // traverse the array
-        for(int x: nums){
-            // if the current is completely divisible by x then
-            if(x % k == 0 && prev != x) {
-                i++;  // update the count of multiples found
-
-                // Verify if the expected multiple (k * i) matches the current element
-                // If not, that means k*i is missing in the array
-                if(k * i != x){
-                    return k*i;  // return the missing muliple
-                }
-                prev = x;
+        // HashSet only stores the element which is multiple of k
+        HashSet<Integer> multiple = new HashSet<>();
+        for(int curr: nums){
+            if(curr % k == 0){
+                multiple.add(curr);
             }
         }
-        return k*(++i);  // if no multiple found inside the loop, then the multiple after the last one is  missing
+        
+        int i = 1;
+        // start checkin in HashSet for k, 2k, 3k, 4k,....
+        while(true){
+            int candidate = k * i;
+            i++;
+            // if not contain current candidate then return that missing element
+            if(!multiple.contains(candidate)){
+                return candidate;
+            }
+        }
     }
 }
