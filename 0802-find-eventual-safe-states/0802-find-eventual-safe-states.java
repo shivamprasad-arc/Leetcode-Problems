@@ -1,5 +1,6 @@
 // Time complexity: O(V + E)
 // Space complexity: O(V + E)
+// Appraoch: BFS - Topological Sort
 class Solution {
     static class Edge{
         int src, dest;
@@ -10,58 +11,54 @@ class Solution {
     }
     public List<Integer> eventualSafeNodes(int[][] graph) {
         ArrayList<Edge>[] graphs = new ArrayList[graph.length];
-        createGraph(graphs, graph);
+        // create graph of reverse edges i.e., reverse graph
+        createRevGraph(graphs, graph);
 
-        boolean[] visited =  new boolean[graph.length];
-
-        // stack[i] = true means node i is currently present in the current DFS recursion path
-        // This array is used to detect a cycle
-        boolean[] stack = new boolean[graph.length];
-
-        // checkSafe[i] = true means node i is a safe node
-        boolean[] checkSafe = new boolean[graph.length];
-
-        for(int i = 0; i < graphs.length; i++){
-            if(!visited[i]){
-                dfs(graphs, i, visited, stack, checkSafe);
-            }
-        }
-        // stores all safeNodes answers
-        ArrayList<Integer> safeStates = new ArrayList<>();
-        for(int i = 0; i < graph.length; i++){
-            // if current node is safe then add to the safeStates
-            if(checkSafe[i]){
-                safeStates.add(i);
+        // then calculate indegree of all vertex
+        int[] inDegree = new int[graphs.length];
+        for(int u = 0; u < graphs.length; u++){
+            for(Edge v: graphs[u]){
+                inDegree[v.dest]++;
             }
         }
 
-        return safeStates;
+        // queue data structure for BFS 
+        Queue<Integer> q = new LinkedList<>();
+        // safeNode stores the safe Nodes of the graph
+        ArrayList<Integer> safeNode = new ArrayList<>();
+
+        // add the terminal node i.e, node with 0 indegree into the queue
+        for(int i = 0; i < inDegree.length; i++){
+            if(inDegree[i] == 0){
+                q.add(i);
+            }
+        }
+
+        // perform BFS 
+        while(!q.isEmpty()){
+            int curr = q.remove();
+            safeNode.add(curr);  // add current node to the safeNode
+            //check for the neighbours of current  node 
+            for(int i = 0; i < graphs[curr].size(); i++){
+                Edge e = graphs[curr].get(i);
+
+                // Remove the edge curr -> e.dest, Therefore decrease indegree of e.dest
+                inDegree[e.dest]--;
+
+                // after removal one edge if the indegree of neighbour becomes 0 then the neighbour add to the queue
+                if(inDegree[e.dest] == 0){
+                    q.add(e.dest);
+                }
+            }
+        }
+
+        // sort the arrayList
+        Collections.sort(safeNode);
+        return safeNode;  // return safest node
     }
 
-    // this code is of detect cycle in directed graph
-    public static boolean dfs(ArrayList<Edge>[] graph, int curr, boolean[] visited, boolean[] stack, boolean[] checkSafe){
-        visited[curr] = true;
-        stack[curr] = true;  // Put current node into the current DFS path
-
-        // check for all neighbour of current node
-        for(int i = 0; i < graph[curr].size(); i++){
-            Edge e = graph[curr].get(i);
-            // if the neighbour of current is already present in the stack 
-            if(stack[e.dest]){ 
-                return true;  // cycle detected
-            }
-
-            // if neighbour is not visited and after recrusive call the function returns true then the cycle exists return true
-            if(!visited[e.dest] && dfs(graph, e.dest, visited, stack, checkSafe)){
-                return true;
-            }
-        }
-        // Current node is no longer part of the current DFS recursion path
-        stack[curr] = false;
-        checkSafe[curr] = true;  // if no cycle detected then the current node is safe State 
-        return false;
-    }
-    public static void createGraph(ArrayList<Edge>[] graph, int[][] edges){
+    
+    public static void createRevGraph(ArrayList<Edge>[] graph, int[][] edges){
         for(int i = 0; i < graph.length; i++){
             graph[i] = new ArrayList<>();
         }
@@ -69,9 +66,8 @@ class Solution {
             int u = i;
             for(int j = 0; j < edges[i].length; j++){
                 int v = edges[i][j];
-                graph[u].add(new Edge(u,v));
+                graph[v].add(new Edge(v, u));
             }
-
         }
     }
 }
