@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
+| [0728-self-dividing-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0728-self-dividing-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
