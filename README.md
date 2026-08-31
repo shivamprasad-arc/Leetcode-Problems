@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0389-find-the-difference) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
+| [1154-day-of-the-year](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1154-day-of-the-year) |
 | [1189-maximum-number-of-balloons](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
 | [1768-merge-strings-alternately](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1768-merge-strings-alternately) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1832-check-if-the-sentence-is-pangram) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0728-self-dividing-numbers) |
+| [1154-day-of-the-year](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1154-day-of-the-year) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
