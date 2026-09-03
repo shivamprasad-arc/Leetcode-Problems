@@ -1,28 +1,32 @@
 class Solution {
+    // Optimized solution
     public int[] separateDigits(int[] nums) {
-        // arraylist stores the individual digits, we don't use directly array due to we don't know the size of new array after separation of digits
-        ArrayList<Integer> list = new ArrayList<>();
-
-        // traverse the nums array and store the individual digits
+        // step 1: count the total digits in the nums array i.e, [13, 25, 83, 142] => digits = 9
+        int digits = 0;
+        // traverse the array and count the digits
         for(int i = 0; i < nums.length; i++){
             int n = nums[i];
-            // we use temp list stores reversed digits of a number due to after extracting digits using % the digits comes in reversed order i.e, 123, --> 3, 2, 1 that is reversed 
-            ArrayList<Integer> temp = new ArrayList<>();
             while(n != 0){
-                temp.add(n % 10);
                 n /= 10;
+                digits++;
             }
-            // then reverse the individuals digits of a current number i.e,
-            // 3, 2, 1 -> 1, 2, 3
-            Collections.reverse(temp);
-            list.addAll(temp);  // then add all elements of temp list to the ans list
         }
 
-        // then define the array of same size of list and add all elements to the array
-        int ans[] = new int[list.size()];
-        for(int i = 0; i < list.size(); i++){
-            ans[i] = list.get(i);
+        // step2: create a answer array of the size equal to no of digits present in the array
+        int ans[] = new int[digits];
+        int idx = digits - 1;  // // Start filling the answer array from the last index.
+
+        // step 3: raverse nums from right to left.
+        // We do this because digits are extracted from right to left.(Reversed order)
+        for(int i = nums.length - 1; i >= 0; i--){
+            int n = nums[i];
+        
+            while(n != 0){
+                ans[idx--] = n % 10;
+                n /= 10;
+            }
         }
+        // return the separated digits array
         return ans;
     }
 }
