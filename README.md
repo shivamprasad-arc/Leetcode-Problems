@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-two-out-of-three](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2032-two-out-of-three) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2465-number-of-distinct-averages](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2465-number-of-distinct-averages) |
+| [2553-separate-the-digits-in-an-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2553-separate-the-digits-in-an-array) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3731-find-missing-elements) |
 | [3852-smallest-pair-with-different-frequencies](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3852-smallest-pair-with-different-frequencies) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
+| [2553-separate-the-digits-in-an-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2553-separate-the-digits-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
