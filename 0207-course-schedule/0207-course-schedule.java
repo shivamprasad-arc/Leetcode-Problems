@@ -1,5 +1,4 @@
-// Time complexity: O(V + E)
-// Space complexity: O(V + E)
+// Approach: Topological sorting Using BFS : Kahn's algorithm
 class Solution {
     // create edge class
     static class Edge{
@@ -13,50 +12,49 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int n = numCourses;  // number of vertex in the graph
         ArrayList<Edge>[] graph = new ArrayList[n];
-        createGraph(graph, prerequisites);
-        boolean[] visited = new boolean[n];
-        boolean[] stack = new boolean[n];  //stack tells whether a vertex is currently present in the current DFS or not
+        createGraph(graph, prerequisites);  // creating graph using prerequisites
 
+        // stores number of incomoing edges of all nodes
+        int[] inDegree = new int[n];
+        calculateInDegree(graph, inDegree);  // calculate inDegree of all nodes
+
+        // Queue for BFS
+        Queue<Integer> q = new LinkedList<>();
+        // add all nodes with 0 inDegree into the queue
         for(int i = 0; i < n; i++){
-            if(!visited[i]){
-                // if cycle exists then the course can;t be completed so it return false
-                if(canFinishUtil(graph, i, visited, stack)){
-                    return false;
+            if(inDegree[i] == 0){
+                q.add(i);
+            }
+        }
+
+        int courseCompleted = 0;  // tracks number of course completed
+
+        while(!q.isEmpty()){
+            int curr = q.remove();  // remove current node
+            courseCompleted++;  // update courseCompleted by 1
+
+            // find all neighbour nodes of current node and reduce the inDegree of all neighbours by 1 
+            //  and if the inDegree becomes 0 then the neighbour add to the queue
+            for(int i = 0; i < graph[curr].size(); i++){
+                Edge e = graph[curr].get(i);
+                inDegree[e.dest]--;
+                if(inDegree[e.dest] == 0){
+                    q.add(e.dest);
                 }
             }
         }
-        return true;  // no cycle found -> all courses are completed
+
+        // if number of courses is equal to the number of completed courses then return true otherwise return false;
+        return courseCompleted == numCourses;
     }
 
-    // DFS function for detecting cycle in directed graph
-    // return true  -> cycle found
-    // return false -> no cycle
-    public static boolean canFinishUtil(ArrayList<Edge>[] graph, int curr, boolean[] visited, boolean[] stack){
-        visited[curr] = true;  // mark current vertex as true
-        stack[curr] = true; // Put current vertex into current DFS path
-
-        // Visit all neighbour of current list
-        for(int i = 0; i < graph[curr].size(); i++){
-            Edge e = graph[curr].get(i);  
-            // if the neighbour is already in the current DFS path that is cycle exists
-            if(stack[e.dest]){
-                return true;
-            }
-
-            // If destination vertex has not been visited, perform DFS on that vertex
-            if(!visited[e.dest]){
-                if(canFinishUtil(graph, e.dest, visited, stack)){
-                    return true;
-                }
+    public static void calculateInDegree(ArrayList<Edge>[] graph, int[] inDegree){
+        for(int i = 0; i < graph.length; i++){
+            for(int j = 0; j < graph[i].size(); j++){
+                Edge e = graph[i].get(j);
+                inDegree[e.dest]++;
             }
         }
-        // Current vertex's DFS is completed.
-        // Remove it from the current DFS path.
-        //
-        // Important:
-        // visited remains true, but stack becomes false.
-        stack[curr] = false;
-        return false; // no cycle found from the vertex
     }
 
     public static void createGraph(ArrayList<Edge>[] graph, int[][] edges){
