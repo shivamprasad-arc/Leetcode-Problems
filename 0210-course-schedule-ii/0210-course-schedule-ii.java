@@ -1,82 +1,93 @@
-// DFS-based Reverse Topological Sort + Cycle Detection in Directed Graph
-//
-// Time Complexity: O(V + E)
-// Space Complexity: O(V + E)
+// topological sort using bfs : Kahn's Algorithm
+// Approach: we wan't to find reversed Topological sorting so we create graph in reversed order then apply topological sort using bfs algorithm
 class Solution {
     static class Edge{
-        int src, dest;
+        int src, dest; 
         public Edge(int s, int d){
             this.src = s;
             this.dest = d;
         }
     }
 
+
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        Queue<Integer> q = new LinkedList<>();  // queue used for reverse topological sorting
-        boolean[] visited = new boolean[numCourses];
-
-        // stack[i] = true means vertex i is currently present in the current DFS recursion path.
-        // It is used to detect a cycle in a directed graph
-        boolean[] stack = new boolean[numCourses]; // for detecting cycle in directed
+        int[] CourseOrder = new int[numCourses];  // ans
+        // inDegree tracks the inDegree of each Vertes
+        int[] inDegree = new int[numCourses];
         ArrayList<Edge>[] graph = new ArrayList[numCourses];
-        createGraph(graph, prerequisites);
+        createGraph(graph, prerequisites);  // createGraph
+        calculateInDegree(graph, inDegree); // calculate inDegree's
+        Queue<Integer> q = new LinkedList<>();  // queue for dfs
 
-        // traverse all vertex of the graph if vertices are disconnected
-        for(int i = 0; i < graph.length; i++){
-            // if current vertex is not visited then perform topological sort
-            if(!visited[i]){
-                if(topologicalSort(graph, i, visited, q, stack)){
-                    return new int[0]; // if cycle found then return empty array
-                }
+        // add all vertex to the queue whose inDegree is zero 
+        boolean isZeroDeg = false;
+        for(int i = 0; i < inDegree.length; i++){
+            if(inDegree[i] == 0){
+                q.add(i);
+                isZeroDeg = true;  // 
             }
         }
+        // if no any element with non Zero inDegree that means cycle is in graph 
+        //  so topological sort is not possible for cyclic graph
+        if(!(isZeroDeg)) return new int[]{};
 
-        int ans[] = new int[numCourses];
-        int i = 0;
+        int idx = 0;  // tracks the index of CourseOrder i.e, ans
+        
         while(!q.isEmpty()){
-            ans[i] = q.remove();
-            i++;
-        }
-        return ans;
-    }
+            int curr = q.remove();  // remove current vertex from queue
+            CourseOrder[idx++] = curr;  // add to course schedule
 
-    // DFS function for:
-    // 1. Topological sorting
-    // 2. Cycle detection
-    //
-    // return true  -> cycle found
-    // return false -> no cycle
-    public static boolean topologicalSort(ArrayList<Edge>[] graph, int curr, boolean[] visited, Queue<Integer> q, boolean[] stack){
-        visited[curr] = true;
-        stack[curr] = true;
-        for(int i = 0; i < graph[curr].size(); i++){
-            Edge e = graph[curr].get(i);
-
-            if(stack[e.dest]){
-                return true;
-            }
-            if(!visited[e.dest]){
-                if(topologicalSort(graph, e.dest, visited, q, stack)){
-                    return true;
+            // then decrease the inDegree's of each neighbour nodes of current vertex 
+            //  and if the inDegree of any neighbour will be zero then add that node to the queue
+            for(int i = 0; i < graph[curr].size(); i++){
+                Edge e = graph[curr].get(i);
+                inDegree[e.dest]--;
+                if(inDegree[e.dest] == 0){
+                    q.add(e.dest);
                 }
             }
         }
-        q.add(curr);
-        stack[curr] = false;
-        return false;
+
+        // course schedule
+        return idx == numCourses ? CourseOrder : new int[]{};
     }
 
+    // this function calculates the inDegree of every nodes
+    public static void calculateInDegree(ArrayList<Edge>[] graph, int[] inDegree){
+        for(int i = 0; i < inDegree.length; i++){
+            // travese all edges connected to the vertex i
+            for(int j = 0; j <graph[i].size(); j++){
+                Edge e = graph[i].get(j);  // get the current edge
 
+                // e.dest receives one incoming edge. Therefore, increase its indegree.
+                inDegree[e.dest]++;
+            }
+        }
+    }
+
+     // ---------------------------------------------------------
+    // FUNCTION: createGraph
+    // ---------------------------------------------------------
+    // This function creates the adjacency-list representation  of the graph.
+    // For prerequisite [u, v]: u depends on v
+    // Therefore:  v -> u
+    // Example: prerequisites = [[1,0]]
+    // Means: Course 0 must be completed before Course 1.
+    // Graph: 0 -> 1
     public static void createGraph(ArrayList<Edge>[] graph, int[][] edges){
         for(int i = 0; i < graph.length; i++){
-            graph[i] = new ArrayList<>();
+            graph[i]= new ArrayList<>();
         }
-
         for(int i = 0; i < edges.length; i++){
-            int u = edges[i][0];
+             // For [u, v]:
+            // u = course that depends on v
+            // v = prerequisite course
+            int u = edges[i][0]; 
             int v = edges[i][1];
-            
-            graph[u].add(new Edge(u, v));
+
+            // Create the edge:  v -> u
+            // Because v must be completed before u. i.e., reverse connect the edges
+            graph[v].add(new Edge(v, u));
         }
     }
 }
