@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
+| [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
+| [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Array
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
+| [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
 ## Range Minimum/Maximum Query
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0207-course-schedule) |
+| [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 ## Recursion
 |  |
 | ------- |
@@ -310,4 +314,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
+## Backtracking
+|  |
+| ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 <!---LeetCode Topics End-->
