@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0389-find-the-difference) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
+| [0796-rotate-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0796-rotate-string) |
 | [1154-day-of-the-year](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1154-day-of-the-year) |
 | [1189-maximum-number-of-balloons](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
 | [1768-merge-strings-alternately](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1768-merge-strings-alternately) |
@@ -331,4 +332,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0743-network-delay-time) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
