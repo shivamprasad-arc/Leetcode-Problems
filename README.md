@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0733-flood-fill) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0905-sort-array-by-parity](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0905-sort-array-by-parity) |
 | [0977-squares-of-a-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0977-squares-of-a-sorted-array) |
 | [1046-last-stone-weight](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1046-last-stone-weight) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0744-find-smallest-letter-greater-than-target) |
 ## Number Theory
 |  |
 | ------- |
