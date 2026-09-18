@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0205-isomorphic-strings](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0389-find-the-difference](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0389-find-the-difference) |
 | [1189-maximum-number-of-balloons](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0283-move-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0283-move-zeroes) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1971-find-if-path-exists-in-graph) |
