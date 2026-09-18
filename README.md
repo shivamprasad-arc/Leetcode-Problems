@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [0143-reorder-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0345-reverse-vowels-of-a-string) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
+| [0143-reorder-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
 ## Tree
 |  |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0143-reorder-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0143-reorder-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0143-reorder-list) |
 | [0231-power-of-two](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0231-power-of-two) |
 ## Kosaraju's Algorithm
 |  |
