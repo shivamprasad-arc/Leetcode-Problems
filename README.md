@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0905-sort-array-by-parity](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0905-sort-array-by-parity) |
+| [0941-valid-mountain-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0977-squares-of-a-sorted-array) |
 | [1046-last-stone-weight](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1046-last-stone-weight) |
 | [1207-unique-number-of-occurrences](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1207-unique-number-of-occurrences) |
