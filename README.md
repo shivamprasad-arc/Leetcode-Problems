@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3280-convert-date-to-binary](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3280-convert-date-to-binary) |
 | [3340-check-balanced-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3340-check-balanced-string) |
 | [3442-maximum-difference-between-even-and-odd-frequency-i](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3442-maximum-difference-between-even-and-odd-frequency-i) |
+| [3498-reverse-degree-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3498-reverse-degree-of-a-string) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Hash Table
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
 | [2553-separate-the-digits-in-an-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/2553-separate-the-digits-in-an-array) |
+| [3498-reverse-degree-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3498-reverse-degree-of-a-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
