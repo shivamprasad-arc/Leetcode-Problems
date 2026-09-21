@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0046-permutations) |
 | [0066-plus-one](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0084-largest-rectangle-in-histogram) |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0046-permutations) |
 | [0797-all-paths-from-source-to-target](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0797-all-paths-from-source-to-target) |
 ## Shortest Path
 |  |
