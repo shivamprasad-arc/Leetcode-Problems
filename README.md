@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
 | [0143-reorder-list](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0143-reorder-list) |
+| [0202-happy-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0345-reverse-vowels-of-a-string) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0128-longest-consecutive-sequence) |
+| [0202-happy-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0389-find-the-difference](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0389-find-the-difference) |
 | [1189-maximum-number-of-balloons](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0066-plus-one](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0069-sqrtx) |
+| [0202-happy-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [0537-complex-number-multiplication](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0537-complex-number-multiplication) |
@@ -396,4 +399,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3765-complete-prime-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3765-complete-prime-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
