@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3536-maximum-product-of-two-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3536-maximum-product-of-two-digits) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3765-complete-prime-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3765-complete-prime-number) |
 | [3870-count-commas-in-range](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3875-construct-uniform-parity-array-i) |
 | [3945-digit-frequency-score](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3945-digit-frequency-score) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0258-add-digits) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3765-complete-prime-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3765-complete-prime-number) |
 ## Simulation
 |  |
 | ------- |
@@ -385,4 +387,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/0232-implement-queue-using-stacks) |
+## Enumeration
+|  |
+| ------- |
+| [3765-complete-prime-number](https://github.com/shivamprasad-arc/Leetcode-Problems/tree/master/3765-complete-prime-number) |
 <!---LeetCode Topics End-->
